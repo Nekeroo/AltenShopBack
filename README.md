@@ -4,7 +4,7 @@ Création d'une API pour AltenShop
 
 ## Pré-requis
 
-### Base de donnés
+### Base de données
 
 Pour pouvoir stocker les Produits crées, il vous faudra créer une Base de données. Dans notre cas, il est recommandé de créer une BDD MySQL.
 
@@ -45,4 +45,11 @@ mvn spring-boot:run
 * Deuxième option, vous posséder un IDE (*Ex : IntelliJ*) capable de le lancer pour vous. Voici un exemple de Configuration de lancement :
 
 ![Configuration de lancement](src/main/resources/static/configuration.png)
+
+
+## Test
+
+Afin de pouvoir tester l'application, vous pouvez utiliser l'application Bruno (*Lien d'installation : https://www.usebruno.com/downloads*)
+
+La collection des requêtes disponibles se trouvent dans le dossier AlterShopTestApi
 
