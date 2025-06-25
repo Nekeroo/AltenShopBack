@@ -18,6 +18,7 @@ Voici un exemple des données présentes dans ce fichier :
 DATABASE_URL=votre_adresse_db
 DATABASE_PASSWORD=votre_password
 DATABASE_USER=votre_user
+JWT_SECRET_KEY=NzYzMjM2NTMxNzYxNDQ1MjA2NTgxNzI1Njk0MTUzNjU1NjU5Njk2ODcyNjMzNzU1MTYxNjE3OTUzNTM3NzU3
 ```
 Ces informations seront lu au lancement de l'application.
 
