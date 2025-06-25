@@ -42,12 +42,12 @@ public class ProductController {
         return ResponseEntity.status(HttpStatus.CREATED).build();
     }
 
-    @PatchMapping("/")
-    public ResponseEntity<?> updateProduct(@RequestBody ProductDTO productDTO) {
+    @PatchMapping("/{id}")
+    public ResponseEntity<?> updateProduct(@RequestBody ProductDTO productDTO, @PathVariable Long id) {
 
         Product product = productMapper.mapProductDTOtoProduct(productDTO);
 
-        productService.updateProduct(product, product.getIdProduct());
+        productService.updateProduct(product, id);
 
         return ResponseEntity.status(HttpStatus.OK).build();
     }
